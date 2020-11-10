@@ -1,0 +1,52 @@
+body{
+    background-color: #eaeded!important;
+}
+nav{
+    position: sticky!important;
+    top: 0;
+    z-index: 100;
+}
+.navbar-brand {
+    width: 10%;
+}
+.navbar-brand > img {
+    width: 100%;
+    margin-top: 1rem;
+}
+.searchSection{
+    width: 50%;
+    margin: 0 15rem auto;
+}
+.searchSection > input {
+    width: 100%;
+}
+.searchSection > button{
+    background-color: rgb(255, 165, 0);
+    color: #ffffff;
+    border: none;
+}
+.navbar-nav > .nav-item{
+    cursor: pointer;
+}
+.icon {
+    color: #ffffff;
+}
+.shopButton{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.home{
+    background: url("./assets/header.jpg") no-repeat;
+    background-position: right top;
+    height: 25rem;
+}
+.card{
+    height: 95%;
+    margin: 20px;
+}
+.card-body > button{
+    border: none;
+    background-color: rgb(255, 165, 0);
+    padding: 0.5rem;
+}
